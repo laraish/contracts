@@ -1,0 +1,29 @@
+{
+    "name": "laraish/contracts",
+    "description": "The Laraish Contracts package.",
+    "keywords": [
+        "framework",
+        "laravel",
+        "wordpress"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/laraish/contracts",
+    "support": {
+        "issues": "https://github.com/laraish/contracts/issues",
+        "source": "https://github.com/laraish/contracts"
+    },
+    "authors": [
+        {
+            "name": "yaquawa",
+            "email": "yaquawa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraish\\Contracts\\": "./"
+        }
+    }
+}

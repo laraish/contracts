@@ -74,11 +74,11 @@ interface OptionsPage
      * Script to be enqueued.
      * @return string
      */
-    public function script();
+    public function scripts();
 
     /**
      * Style to be enqueued.
      * @return string
      */
-    public function style();
+    public function styles();
 }

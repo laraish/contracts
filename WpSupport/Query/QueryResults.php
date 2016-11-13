@@ -11,4 +11,10 @@ interface QueryResults
      * @return \Laraish\Contracts\Pagination\Paginator
      */
     public function getPagination(array $options = []);
+
+    /**
+     * Convert to Collection object.
+     * @return \Illuminate\Support\Collection
+     */
+    public function toCollection();
 }

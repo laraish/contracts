@@ -25,6 +25,13 @@ interface OptionsRepository
     public function set($key, $value);
 
     /**
+     * Delete the option from database.
+     *
+     * @return boolean
+     */
+    public function delete();
+    
+    /**
      * Get the option-name.
      * @return string
      */

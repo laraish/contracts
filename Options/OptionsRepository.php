@@ -30,7 +30,7 @@ interface OptionsRepository
      * @return boolean
      */
     public function delete();
-    
+
     /**
      * Get the option-name.
      * @return string

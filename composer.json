@@ -25,5 +25,8 @@
         "psr-4": {
             "Laraish\\Contracts\\": "./"
         }
+    },
+    "scripts": {
+        "fix-cs": ["prettier **/*.php --write"]
     }
 }

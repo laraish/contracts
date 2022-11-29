@@ -1,16 +1,16 @@
 {
     "name": "laraish/contracts",
-    "description": "The Laraish Contracts package.",
+    "description": "The Laraish Contracts package, updated fork.",
     "keywords": [
         "framework",
         "laravel",
         "wordpress"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/laraish/contracts",
+    "homepage": "https://github.com/thanasisxan/laraish-contracts",
     "support": {
-        "issues": "https://github.com/laraish/contracts/issues",
-        "source": "https://github.com/laraish/contracts"
+        "issues": "https://github.com/thanasisxan/laraish-contracts/issues",
+        "source": "https://github.com/thanasisxan/laraish-contracts"
     },
     "authors": [
         {
@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "php": "^7.3"
+        "php": "^8.0"
     },
     "autoload": {
         "psr-4": {
